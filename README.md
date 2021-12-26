@@ -11,27 +11,27 @@ To exeute the code run the following command:
 
 1. TO UNMOUNT THE EXISTING USB DEVICE DRVIER:
 	
-	%sudo rmmod uas
-	%sudo rmmod usb-storage
+		%sudo rmmod uas
+		%sudo rmmod usb-storage
 
 2. TO LOAD THE MODULE INVOKE make FROM THE DIRECTORY CONSISTING THE FILE:
 
-	%make
+		%make
 
 3. LOAD THE MODULE:
 
-	%sudo insmod device-driver.ko
+		%sudo insmod device-driver.ko
 
 4. CONNECT THE 	USB PENDRIVE AND CHECK THE LOGFILE:
 
-	%tail -f /var/log/syslog
+		%tail -f /var/log/syslog
 
 		or
 		
-	%dmesg
+		%dmesg
 
 5. TO UNLOAD THE MODULE:
 
-	%sudo rmmod device_driver
+		%sudo rmmod device_driver
 
 6. LOAD THE DEFAULT USB DEVICE DRIVERS.
